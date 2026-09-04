@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NIGHT SHIFT SUPPLY</title>
+<meta name="theme-color" content="#0E0F12">
+<link rel="stylesheet" href="ns.css?v=3">
+</head>
+<body>
+<a class="skip" href="#card">Skip to the piece</a>
+<header class="head">
+  <a class="brand" href="index.html">Night Shift Supply</a>
+  <nav aria-label="Main">
+    <a href="index.html">Clock</a>
+    <a href="lookbook.html">Lookbook</a>
+    <a href="about.html">About</a>
+    <a class="bag" href="hour.html">Bag<b data-bag>0</b></a>
+  </nav>
+</header>
+
+<main data-hour>
+  <section class="hour">
+    <figure class="hour__photo" style="margin:0">
+      <img data-scene src="" alt="">
+      <div class="hour__stamp" aria-hidden="true" data-stamp>--:--</div>
+      <figcaption class="type" data-cap></figcaption>
+    </figure>
+    <div class="hour__card" id="card">
+      <div class="hour__meta"><span>Hour <span data-idx>01 / 05</span></span><span>Drop 01</span></div>
+      <h1 class="hour__name" data-name>Piece</h1>
+      <img class="hour__cut" data-cut src="" alt="" width="300" height="300">
+      <div class="hour__row"><span class="mono" style="font-size:13px;color:var(--concrete)">Price</span><span class="hour__price num" data-price>$0</span></div>
+      <p class="hour__desc" data-desc></p>
+      <div class="sizes" role="radiogroup" aria-label="Size"></div>
+      <button type="button" class="add" data-add>Punch it in</button>
+      <div class="specs" data-specs></div>
+      <nav class="hour__nav" aria-label="Hours"><a data-prev href="#">←</a><a data-next href="#">→</a></nav>
+    </div>
+  </section>
+  <section class="hour__more" data-more aria-label="Product photos"></section>
+</main>
+<footer class="foot">
+  <span>Night Shift Supply is a fictional label. AI-generated concept work directed by <a href="https://avjcodes.github.io/" rel="noopener">Angel Valle</a>. Nothing is for sale.</span>
+  <span><span data-now>--:--</span> · <span data-togo></span></span>
+</footer>
+<div class="toast" role="status" aria-live="polite"></div>
+<script src="ns.js?v=2" defer></script>
+</body>
+</html>
