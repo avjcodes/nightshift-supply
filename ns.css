@@ -70,8 +70,8 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;background:url
 .hours a .p{color:var(--sodium)}
 @media (max-width:640px){
   .home__foot{flex-direction:column;align-items:start}
-  .dial{padding:64px var(--s2) 0}
-  .dial svg{width:100vw}
+  .dial{padding:64px 0 0}
+  .dial svg{width:100%}
   .dial .stop text{display:none}
   .hours{display:block}
 }
